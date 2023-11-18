@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-neo-chat",
-  "description": " su-chat",
-  "version": "0.0.1",
+  "description": "su-chat 后继无人啊",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,13 +9,32 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
+  "peerDependencies": {
+    "koishi": "^4.15.5"
+  },
+  "koishi": {
+    "service": {
+      "require": [
+        "neochat"
+      ]
+    }
+  },
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "ai",
+    "chatgpt",
+    "gpt",
+    "chat",
+    "free",
+    "免费",
+    "俗手",
+    "预览",
+    "ai聊天",
+    "openai"
   ],
-  "peerDependencies": {
-    "koishi": "^4.15.5"
-  }
+  "contributors": [
+    "SuShou <adqber123@outlook.com>"
+  ]
 }
